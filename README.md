@@ -9,4 +9,4 @@ Leave blank unknow data
 
 It's recommended to use lowercase
 
-File will be created in /[nombre].txt
+File will be created in /[name].txt
