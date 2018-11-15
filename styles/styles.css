@@ -1,0 +1,73 @@
+body{
+	background-color:black;
+	background-image: url("../img/back.png");
+	background-width:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+h1{
+	font-family:fixedsyxed;
+	color:red;
+	text-align:center;
+	font-size:200%;
+	letter-spacing:5px;
+}
+@font-face {
+    font-family: 'fixedsyxed'; 
+    src: url('fixedsys.ttf') format('truetype');
+}
+.class1{
+	background-color:white;
+	padding:10px;
+	padding-left:60px;
+	margin:30px;
+	margin-left:150px;
+	margin-right:150px;
+	font-family:fixedsyxed;
+	font-color:darkgray;
+	font-size:120%;
+	text-align:left;
+	opacity:0.9;
+	border-radius:7px;
+	overflow:hidden;
+}
+input[type=text], select {
+	font-family:fixedsyxed;
+	font-size:20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	width:100%;
+}
+.divform {
+    border-radius: 5px;
+    padding: 10px;
+	
+}
+
+input:hover{
+	border-color:red;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family:fixedsyxed;
+	font-size:20px;
+}
+input[type=submit]:hover {
+	background-color:red;
+	font-family:fixedsyxed;
+}
+hr{
+	  border: 0.5px solid red;
+	  margin-bottom:20px;
+}
